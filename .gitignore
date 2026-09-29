@@ -1,0 +1,30 @@
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+credentials.json
+token*
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+*-wal
+*-shm
+*-journal
+
+# Runtime and caches
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+dist/
+build/
+
+# System and IDE
+.DS_Store
+.vscode/
+.idea/
+*.log
